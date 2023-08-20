@@ -1,10 +1,24 @@
 import reflex as rx
+from Reflex_chatBot import styles
 
 
 def qa(question: str, answer: str) -> rx.Component:
     return rx.box(
-        rx.box(question, text_align="right"),
-        rx.box(answer, text_aling="left"),
+        rx.box(
+            rx.text(
+                question,
+                style=styles.question_style,
+            ),
+            text_align="right",
+        ),
+        rx.box(
+            rx.text(
+                answer,
+                style=styles.answer_style,
+            ),
+            text_aling="left",
+        ),
+        margin_y="1em",
     )
 
 

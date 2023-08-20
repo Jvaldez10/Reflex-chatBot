@@ -1,4 +1,4 @@
-# style.py
+# styles.py
 
 # Common styles for questions and answers.
 shadow = "rgba(0, 0, 0, 0.15) 0px 2px 8px"
