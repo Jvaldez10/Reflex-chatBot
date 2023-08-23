@@ -2,9 +2,7 @@ import reflex as rx
 import os
 import openai
 
-# import asyncio
-# openai.API_KEY = os.environ["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"]
-# openai.api_key = "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"
+
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
